@@ -1,0 +1,43 @@
+{
+    "ejemplos_json": {
+        "Descripccion": "Ejemplo de un documento JSON con varios tipos de datos y estructuras anidadas",
+        "datos": {
+            "nombre": " Vero Flores",
+            "edad": 17,
+            "activo": true,
+            "hobbies": ["Futbol","Cantar","Dibujar"],
+            "direccion": {
+                "calle":"Calle falsa #120",
+                "ciudad":"Monterrey",
+                "pais":"Mexico"
+            },
+            "contacto": null
+
+        },
+        "nota":" Esta ejemplo muestra como JSON puede representar diferentes tipos de datos y estructuras complejas"
+    },
+    "ejemplo_documento_mongodb":{
+        "descripccion":"Ejemplo de un documento tipico en MongoDB, que utiliza BSON internamente",
+        "datos":{
+            "_id":"29474765839938475657483939",
+            "producto":"Smartphone Samsung Galaxy S25",
+            "precio": 799.99,
+            "disponible":true,
+            "categorias":["electronica", "moviles","smartphones"],
+            "especificaciones":{
+                "procesador":"Exynos 2100",
+                "ram":"8GB",
+                "almacenamiento": "128GB",
+                "pantalla": "6.2 pulgadas",
+                "bateria":"4000mAh"
+            },
+            "fecha_creacion":"2026-02-29T10:00:00Z",
+            "reviews":[
+                {
+                    "usuario":"techlover",
+                    "comentario":"Excelente rendiemiento y camara"
+                }
+            ]
+        }
+    }
+}
